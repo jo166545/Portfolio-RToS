@@ -15,7 +15,7 @@ Runway-lighting and stall-warning avionics system demonstrating FreeRTOS inter-t
 
 ## System Architecture
 
-![System architecture diagram](architecture_diagram.png)
+![System architecture diagram](Architecture PNG.png)
 
 Two task clusters: an ITC cluster (FIFO queues) and a priority-inheritance cluster (mutex), connected by a dedicated emergency-override path.
 
